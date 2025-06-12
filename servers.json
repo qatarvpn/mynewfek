@@ -1,0 +1,10 @@
+[
+  {
+    "name": "🇫🇷 France",
+    "config": "[Interface]\nPrivateKey = 8JT170Jh2oJ9NCJ1t2speqczBd8KFvTM1tFy5awF4m4=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = YzgoDUrWehG5XNgIv22ev4OpHw0Y+m5Ih6wZx5Ag/Ec=\nPresharedKey = 7js2syfTyretEuOtTxrTDe8lDEokRbj+XbDQzBE/Cw4=\nEndpoint = fr.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇳🇱 Netherlands",
+    "config": "[Interface]\nPrivateKey = 8G7ShC4aTi4zKOgRyIYO9bG7/LMbZsjoqcd82sEQqkU=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = RGYL/WN1fctTIF7rFx/Usn3WkAhPr9ag0Su/rYgVI3A=\nPresharedKey = alTowqIueaXr3RgCrFCWS34rniitJem5+rDn+h7yZds=\nEndpoint = nl.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  }
+]
