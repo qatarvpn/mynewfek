@@ -24,11 +24,11 @@
     "config": "[Interface]\nPrivateKey = KFJXe7LPRa7XFoyIl1fkEt0Fw76TVVs/WVacUfsEtHc=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = on7T2RcWuqfG3LJcRSC/pmy5tErNZM4Q0SjFv+XXQzs=\nPresharedKey = umL0VyenUn3LfITNxJcxM9njvNdE4PgwyAB3QlytnJw=\nEndpoint = uk.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
   },
   {
-    "name": "🇺🇸 USA",
+    "name": "🇺🇸 United States",
     "config": "[Interface]\nPrivateKey = +BdPx4eCKUN2KJc8j8DLdXRjcj9gBu5QGUhtsCz1x3E=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = 7SSyNJkkrXC37szEYeBsgEQgBa/Ute5SHttM8Frv4zw=\nPresharedKey = iLmupK2jZJ3gPQzevRS6cjBGkMZq07pCZ7dhfPsjvZ8=\nEndpoint = us.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
   },
   {
-    "name": "🇸🇬 Singapore 0",
-    "config": "[Interface]\nAddress = 10.7.0.190/32\nPrivateKey = YEVH6dYylroWLZmzRRNbURJiOhamaiSUHXlyoOGZ02Y=\nDNS = 8.8.8.8\n\n[Peer]\nPublicKey = 45dMPYDlwLGRH4WDMcbwS9lzQAmBrpJ2zd192YIQ1Hg=\nPresharedKey = +kctqBKK9da2pfLmITat2rN+tn6g31KDnn8eT0NCsxc=\nEndpoint = 65.108.209.36:30920\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+    "name": "🇸🇪 Sweden",
+    "config": "[Interface]\nPrivateKey = KAcD/U9SkE3jzJhLpjmyRRmW9C70Ga2keepldzzCelM=\nAddress = 10.66.66.3/32,fd42:42:42::3/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = RblqNjmOfdfkUPopc7hlsQkgB+Rzc8up4s6pmE2lJUc=\nPresharedKey = PkW9k0lyPJu+sR7r9QG19mhfg1Crg0dmxSsTNLjYHbM=\nEndpoint = se.vpnlabs.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
   }
 ]
