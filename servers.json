@@ -1,54 +1,38 @@
-🇫🇷 France
-
-[Interface] PrivateKey = 8JT170Jh2oJ9NCJ1t2speqczBd8KFvTM1tFy5awF4m4= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = YzgoDUrWehG5XNgIv22ev4OpHw0Y+m5Ih6wZx5Ag/Ec= PresharedKey = 7js2syfTyretEuOtTxrTDe8lDEokRbj+XbDQzBE/Cw4= Endpoint = fr.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇳🇱 Netherlands 1
-
-[Interface] PrivateKey = 8G7ShC4aTi4zKOgRyIYO9bG7/LMbZsjoqcd82sEQqkU= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = RGYL/WN1fctTIF7rFx/Usn3WkAhPr9ag0Su/rYgVI3A= PresharedKey = alTowqIueaXr3RgCrFCWS34rniitJem5+rDn+h7yZds= Endpoint = nl.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇳🇱 Netherlands 2
-
-[Interface] PrivateKey = GApvuNP/wHkOIHi/vMjI+aI6esf3t1j69HjChcVEWmY= Address = 10.66.66.3/32,fd42:42:42::3/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = Xsl2kPJEEyDgFZ6xqRDXpFUwQ63+Iao2FA4LhTCKtEk= PresharedKey = GoF2ApIokjD3wGp/PfwIzp4UopWN1OVAax14CS0c2kA= Endpoint = nl.vpnlabs.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇫🇮 Finland
-
-[Interface] PrivateKey = wIYl6yBa2lXBMV6p9g96KHq1kdDhjA+W1No6CuQUQGA= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = xwaJcqiPjKK/FrrOBc3eTp2xyxRqbjFdFal19x7ZoX8= PresharedKey = Bmv6xMIZoyADCPwWxUZ4ZOXVSM+PKeAvoSNkLnhWdj0= Endpoint = fi.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇵🇱 Poland
-
-[Interface] PrivateKey = mB/qTosO0GMzpknZTvpzCp/bxx2BhK9E2Pxs/gvwZ18= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = iDeP1/OCMioewxRCIZfRF8b2Nu92xOQa9bQe0OSuZw8= PresharedKey = hpBkv61+xmhRoEkU1eu/zKay3JdjHxsBDqglfQ9mOa8= Endpoint = pl.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇷🇺 Russia
-
-[Interface] PrivateKey = AFLMxOFWiNcSbezspFfCNVoFzcT3ucH3E7Wvk55ynls= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = IuaJnMzD0YDUePKNlMrmgy4mDqLH5fX3qNs7nxrpPzE= PresharedKey = +u4Gyx8d12N20lChsms+TKkhV+mZSiQJNWei8bsBHPs= Endpoint = ru.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇬🇧 United Kingdom
-
-[Interface] PrivateKey = KFJXe7LPRa7XFoyIl1fkEt0Fw76TVVs/WVacUfsEtHc= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = on7T2RcWuqfG3LJcRSC/pmy5tErNZM4Q0SjFv+XXQzs= PresharedKey = umL0VyenUn3LfITNxJcxM9njvNdE4PgwyAB3QlytnJw= Endpoint = uk.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇺🇸 United States
-
-[Interface] PrivateKey = +BdPx4eCKUN2KJc8j8DLdXRjcj9gBu5QGUhtsCz1x3E= Address = 10.66.66.9/32,fd42:42:42::9/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = 7SSyNJkkrXC37szEYeBsgEQgBa/Ute5SHttM8Frv4zw= PresharedKey = iLmupK2jZJ3gPQzevRS6cjBGkMZq07pCZ7dhfPsjvZ8= Endpoint = us.tcp-udp.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
-🇸🇪 Sweden
-
-[Interface] PrivateKey = KAcD/U9SkE3jzJhLpjmyRRmW9C70Ga2keepldzzCelM= Address = 10.66.66.3/32,fd42:42:42::3/128 DNS = 1.1.1.1,1.0.0.1
-
-[Peer] PublicKey = RblqNjmOfdfkUPopc7hlsQkgB+Rzc8up4s6pmE2lJUc= PresharedKey = PkW9k0lyPJu+sR7r9QG19mhfg1Crg0dmxSsTNLjYHbM= Endpoint = se.vpnlabs.site:51820 AllowedIPs = 0.0.0.0/0,::/0
-
+[
+  {
+    "name": "🇫🇷 France",
+    "config": "[Interface]\nPrivateKey = 8JT170Jh2oJ9NCJ1t2speqczBd8KFvTM1tFy5awF4m4=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = YzgoDUrWehG5XNgIv22ev4OpHw0Y+m5Ih6wZx5Ag/Ec=\nPresharedKey = 7js2syfTyretEuOtTxrTDe8lDEokRbj+XbDQzBE/Cw4=\nEndpoint = fr.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇳🇱 Netherlands 1",
+    "config": "[Interface]\nPrivateKey = 8G7ShC4aTi4zKOgRyIYO9bG7/LMbZsjoqcd82sEQqkU=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = RGYL/WN1fctTIF7rFx/Usn3WkAhPr9ag0Su/rYgVI3A=\nPresharedKey = alTowqIueaXr3RgCrFCWS34rniitJem5+rDn+h7yZds=\nEndpoint = nl.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇳🇱 Netherlands 2",
+    "config": "[Interface]\nPrivateKey = GApvuNP/wHkOIHi/vMjI+aI6esf3t1j69HjChcVEWmY=\nAddress = 10.66.66.3/32,fd42:42:42::3/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = Xsl2kPJEEyDgFZ6xqRDXpFUwQ63+Iao2FA4LhTCKtEk=\nPresharedKey = GoF2ApIokjD3wGp/PfwIzp4UopWN1OVAax14CS0c2kA=\nEndpoint = nl.vpnlabs.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇫🇮 Finland",
+    "config": "[Interface]\nPrivateKey = wIYl6yBa2lXBMV6p9g96KHq1kdDhjA+W1No6CuQUQGA=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = xwaJcqiPjKK/FrrOBc3eTp2xyxRqbjFdFal19x7ZoX8=\nPresharedKey = Bmv6xMIZoyADCPwWxUZ4ZOXVSM+PKeAvoSNkLnhWdj0=\nEndpoint = fi.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇵🇱 Poland",
+    "config": "[Interface]\nPrivateKey = mB/qTosO0GMzpknZTvpzCp/bxx2BhK9E2Pxs/gvwZ18=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = iDeP1/OCMioewxRCIZfRF8b2Nu92xOQa9bQe0OSuZw8=\nPresharedKey = hpBkv61+xmhRoEkU1eu/zKay3JdjHxsBDqglfQ9mOa8=\nEndpoint = pl.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇷🇺 Russia",
+    "config": "[Interface]\nPrivateKey = AFLMxOFWiNcSbezspFfCNVoFzcT3ucH3E7Wvk55ynls=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = IuaJnMzD0YDUePKNlMrmgy4mDqLH5fX3qNs7nxrpPzE=\nPresharedKey = +u4Gyx8d12N20lChsms+TKkhV+mZSiQJNWei8bsBHPs=\nEndpoint = ru.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇬🇧 United Kingdom",
+    "config": "[Interface]\nPrivateKey = KFJXe7LPRa7XFoyIl1fkEt0Fw76TVVs/WVacUfsEtHc=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = on7T2RcWuqfG3LJcRSC/pmy5tErNZM4Q0SjFv+XXQzs=\nPresharedKey = umL0VyenUn3LfITNxJcxM9njvNdE4PgwyAB3QlytnJw=\nEndpoint = uk.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇺🇸 United States",
+    "config": "[Interface]\nPrivateKey = +BdPx4eCKUN2KJc8j8DLdXRjcj9gBu5QGUhtsCz1x3E=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = 7SSyNJkkrXC37szEYeBsgEQgBa/Ute5SHttM8Frv4zw=\nPresharedKey = iLmupK2jZJ3gPQzevRS6cjBGkMZq07pCZ7dhfPsjvZ8=\nEndpoint = us.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  },
+  {
+    "name": "🇸🇪 Sweden",
+    "config": "[Interface]\nPrivateKey = KAcD/U9SkE3jzJhLpjmyRRmW9C70Ga2keepldzzCelM=\nAddress = 10.66.66.3/32,fd42:42:42::3/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = RblqNjmOfdfkUPopc7hlsQkgB+Rzc8up4s6pmE2lJUc=\nPresharedKey = PkW9k0lyPJu+sR7r9QG19mhfg1Crg0dmxSsTNLjYHbM=\nEndpoint = se.vpnlabs.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
+  }
+]
