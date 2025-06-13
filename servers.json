@@ -28,7 +28,7 @@
     "config": "[Interface]\nPrivateKey = +BdPx4eCKUN2KJc8j8DLdXRjcj9gBu5QGUhtsCz1x3E=\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 1.1.1.1,1.0.0.1\n\n[Peer]\nPublicKey = 7SSyNJkkrXC37szEYeBsgEQgBa/Ute5SHttM8Frv4zw=\nPresharedKey = iLmupK2jZJ3gPQzevRS6cjBGkMZq07pCZ7dhfPsjvZ8=\nEndpoint = us.tcp-udp.site:51820\nAllowedIPs = 0.0.0.0/0,::/0"
   },
   {
-    "name": "🇸🇬 Singapore",
-    "config": "# peer91\n# Jc = 128\n# Jmin = 50\n# Jmax = 1280\n# S1 = 15\n# S2 = 101\n# H1 = 5\n# H2 = 21474836\n# H3 = 214748364\n# H4 = 2147483647\n\n[Interface]\nAddress = 10.7.0.190/32\nPrivateKey = YEVH6dYylroWLZmzRRNbURJiOhamaiSUHXlyoOGZ02Y=\nDNS = 8.8.8.8\n\n[Peer]\nPublicKey = 45dMPYDlwLGRH4WDMcbwS9lzQAmBrpJ2zd192YIQ1Hg=\nPresharedKey = +kctqBKK9da2pfLmITat2rN+tn6g31KDnn8eT0NCsxc=\nEndpoint = 65.108.209.36:30920\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
+    "name": "🇸🇬 Singapore 0",
+    "config": "[Interface]\nAddress = 10.7.0.190/32\nPrivateKey = YEVH6dYylroWLZmzRRNbURJiOhamaiSUHXlyoOGZ02Y=\nDNS = 8.8.8.8\n\n[Peer]\nPublicKey = 45dMPYDlwLGRH4WDMcbwS9lzQAmBrpJ2zd192YIQ1Hg=\nPresharedKey = +kctqBKK9da2pfLmITat2rN+tn6g31KDnn8eT0NCsxc=\nEndpoint = 65.108.209.36:30920\nAllowedIPs = 0.0.0.0/0\nPersistentKeepalive = 25"
   }
 ]
