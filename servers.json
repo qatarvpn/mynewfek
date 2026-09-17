@@ -1,18 +1,22 @@
 [
   {
-    "name": "outline ",
+    "name": "United States outline ",
+    "country": "US",
     "config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#United States 🇺🇸"
   },
   {
-    "name": "hysteria2 ",
+    "name": "Ukraine kingdom hy2 ",
+    "country": "UA",
     "config": "hysteria2://93w1tjkr78yr8qzi@node-uk.connectsuite.org:2087?alpn=h3&obfs=salamander&obfs-password=9ocen8pezkf6e4bk&security=tls&sni=#node-uk.connectsuite.org-rkrjuf6il1"
   },
   {
-    "name": "trojan ",
+    "name": "United Kingdom trojan ",
+    "country": "GB",
     "config": "trojan://45959601-45d7-4fbc-b499-36e9a08a4e74@uk1.connectsuite.org:443#trojan-tcp"
   },
-{
-    "name": "vmess ",
+  {
+    "name": "Canada vmess ",
+    "country": "CA",
     "config": "vmess://eyJhZGQiOiI4Mi4xOTguMjQ2LjIzMyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjE4MCIsInBzIjoiVW5pdGVkIEtpbmdkb20iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9"
   }
 ]
