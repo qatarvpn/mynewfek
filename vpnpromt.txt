@@ -1,0 +1,614 @@
+Build a complete, production-ready native Android VPN application in Android Studio using Kotlin.
+
+1. Core requirements
+
+The application must use the provided "libbox.aar" library as its VPN/networking engine.
+
+Do NOT replace "libbox.aar" with another VPN library.
+
+The application must be a real Android VPN using:
+
+- Android "VpnService"
+- "libbox.aar"
+- the native libraries included inside the AAR
+- TUN interface
+- Shadowsocks / Outline-compatible server configurations
+
+The application must support ONLY Shadowsocks servers compatible with Outline.
+
+Do NOT add support for:
+
+- VLESS
+- VMess
+- Trojan
+- Hysteria
+- Hysteria2
+- TUIC
+- WireGuard
+- SOCKS server configuration
+- HTTP proxy server configuration
+- Any other proxy protocol
+
+The only server protocol exposed to the user must be Shadowsocks / Outline.
+
+---
+
+2. Server source
+
+The server list must be loaded from this URL:
+
+https://raw.githubusercontent.com/qatarvpn/vpnme/refs/heads/main/services.json
+
+The JSON format is:
+
+[
+{
+"name": "United States 1 🇺🇸",
+"config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#United States 🇺🇸"
+},
+{
+"name": "United States 2 🇺🇸",
+"config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@156.146.38.170:443#United States 🇺🇸"
+}
+]
+
+Create proper Kotlin data models:
+
+Server:
+
+- name: String
+- config: String
+
+Use a robust JSON parser such as Kotlin serialization or Gson.
+
+The application must download the server list asynchronously.
+
+Never block the main UI thread.
+
+Add:
+
+- loading state
+- successful loading state
+- empty state
+- network error state
+- retry button
+
+Cache the last successfully downloaded server list locally so the application can still display the previous server list if the server JSON cannot currently be downloaded.
+
+---
+
+3. Shadowsocks configuration
+
+The "config" field contains an "ss://" URI.
+
+Implement a proper Shadowsocks URI parser.
+
+The parser must correctly handle:
+
+- URL encoding
+- Base64 encoding
+- Base64 padding
+- username/password-style Shadowsocks URI formats
+- hostname/IP
+- port
+- fragment/name
+
+Do NOT manually hard-code the server credentials.
+
+Each server must be converted from the "ss://" URI into the appropriate configuration required by "libbox".
+
+The application should validate the configuration before attempting to connect.
+
+If a server configuration is invalid, show a clear error rather than crashing.
+
+---
+
+4. libbox integration
+
+Use the exact APIs exposed by the supplied "libbox.aar".
+
+Before implementing the integration, inspect the AAR and its "classes.jar" to determine:
+
+- package names
+- available classes
+- method signatures
+- "Libbox"
+- "BoxService"
+- "PlatformInterface"
+- "TunOptions"
+- configuration APIs
+- command APIs
+- logging APIs
+
+Do NOT invent APIs.
+
+If an API differs from the expected sing-box/libbox API, adapt the implementation to the actual API inside the supplied AAR.
+
+Initialize libbox correctly.
+
+Implement the required Android "PlatformInterface".
+
+Implement TUN creation through Android "VpnService".
+
+The VPN service must:
+
+1. Request Android VPN permission.
+2. Create the TUN interface.
+3. Pass the TUN file descriptor to libbox.
+4. Start the libbox service.
+5. Keep the VPN service alive in the background.
+6. Properly stop and clean up the service when disconnected.
+7. Handle network changes.
+8. Handle Android lifecycle events.
+9. Avoid leaking file descriptors.
+10. Avoid crashing when the network changes.
+
+---
+
+5. Android VpnService
+
+Create a dedicated:
+
+"QatarVpnService : VpnService"
+
+Use a foreground service.
+
+Create a persistent notification while VPN is connected.
+
+The notification should show:
+
+- Qatar VPN
+- Connected / Connecting / Disconnecting
+- Current server name
+
+Provide notification actions where appropriate:
+
+- Disconnect
+
+The application must properly declare the required Android permissions and foreground-service configuration in "AndroidManifest.xml".
+
+Follow modern Android requirements and APIs.
+
+---
+
+6. Main UI
+
+Create a beautiful, modern and polished VPN interface.
+
+The entire application UI must be in English.
+
+Do NOT use Arabic text in the application.
+
+Design language:
+
+- modern
+- clean
+- premium
+- minimal
+- smooth
+- professional
+- consistent
+- not over-designed
+
+Use a coherent color system.
+
+Suggested visual direction:
+
+- dark navy / deep blue background
+- electric blue primary accent
+- subtle cyan highlights
+- white/light-gray text
+- slightly rounded cards
+- soft shadows
+- subtle gradients
+
+Avoid excessive gradients, excessive glowing effects, excessive cards, or a cluttered interface.
+
+The interface should look like a professional commercial VPN application.
+
+---
+
+7. Home screen
+
+Create a main dashboard containing:
+
+VPN status
+
+Large central VPN connection button.
+
+States:
+
+Disconnected:
+
+- "Not Connected"
+- "Tap to Connect"
+
+Connecting:
+
+- "Connecting..."
+
+Connected:
+
+- "Connected"
+- show connection duration
+
+Disconnecting:
+
+- "Disconnecting..."
+
+Use smooth animations between states.
+
+The main connect button should visually change according to the state.
+
+---
+
+8. Server selection
+
+Below the connection button show the currently selected server.
+
+Example:
+
+United States 1 🇺🇸
+
+Add:
+
+"Change Server"
+
+When pressed, open a server selection screen/bottom sheet.
+
+Each server item should display:
+
+- country/name
+- flag if present in the server name
+- connection status if currently connected
+- selected indicator
+
+Do not make the server list overly complicated.
+
+Provide:
+
+- search
+- refresh
+- retry if loading fails
+
+Remember the user's selected server locally.
+
+---
+
+9. Connection information
+
+When connected, show a clean information card containing:
+
+- Server
+- Protocol: Shadowsocks
+- Connection status
+- Connected duration
+- Downloaded data
+- Uploaded data
+
+If the libbox API provides traffic statistics, use them.
+
+Do not fabricate traffic numbers.
+
+---
+
+10. Connection logic
+
+The connect button must follow this logic:
+
+IF VPN is disconnected:
+
+1. Check that a server is selected.
+2. Validate the Shadowsocks configuration.
+3. Request VPN permission if necessary.
+4. Start "QatarVpnService".
+5. Create TUN.
+6. Start libbox.
+7. Update UI to Connecting.
+8. When service successfully starts, update UI to Connected.
+
+IF VPN is connected:
+
+1. Stop libbox.
+2. Stop the VPN service.
+3. Close the TUN descriptor.
+4. Update UI to Disconnected.
+
+Prevent multiple simultaneous connection attempts.
+
+Disable repeated taps while connecting/disconnecting.
+
+---
+
+11. Auto server selection
+
+Do not automatically switch servers without the user's permission.
+
+The selected server should remain selected until the user changes it.
+
+Optionally provide a separate:
+
+"Fastest Server"
+
+feature only if it can actually measure server latency correctly.
+
+Never fake latency measurements.
+
+---
+
+12. Settings screen
+
+Create a simple Settings screen.
+
+Include:
+
+General
+
+- Auto-connect
+- Start on boot
+- Notifications
+
+VPN
+
+- VPN protocol: Shadowsocks
+- DNS
+- IPv4 / IPv6
+- Kill switch if it can be implemented correctly with Android VpnService
+
+Do not expose unsupported protocols.
+
+About
+
+- App version
+- libbox version if available
+- Privacy Policy
+- Terms of Service
+- Contact
+
+Keep the settings clean and simple.
+
+---
+
+13. VPN DNS
+
+Configure DNS correctly through the Android VPN/TUN configuration.
+
+Do not hard-code an unsafe or invalid DNS configuration.
+
+Make DNS behavior compatible with libbox and Android VpnService.
+
+Handle IPv4 and IPv6 properly.
+
+---
+
+14. Network changes
+
+Handle:
+
+- Wi-Fi → mobile data
+- mobile data → Wi-Fi
+- airplane mode
+- network loss
+- network restoration
+
+Use libbox's available network reset/update functionality when appropriate.
+
+The VPN should not silently report "Connected" when the tunnel is actually unavailable.
+
+---
+
+15. Error handling
+
+Create user-friendly error messages.
+
+Examples:
+
+"No server selected"
+
+"Invalid server configuration"
+
+"VPN permission is required"
+
+"Unable to start VPN"
+
+"Unable to connect to server"
+
+"Server list unavailable"
+
+"Network connection unavailable"
+
+Do not expose Java stack traces to the user.
+
+Log technical details using Android Logcat for debugging.
+
+---
+
+16. Architecture
+
+Use a clean Android architecture.
+
+Recommended:
+
+- Kotlin
+- Jetpack Compose
+- ViewModel
+- StateFlow
+- Repository pattern
+- Kotlin Coroutines
+- Kotlin Serialization
+- Android VpnService
+
+Suggested structure:
+
+app/
+├── data/
+│   ├── model/
+│   │   ├── Server.kt
+│   │   └── ...
+│   ├── remote/
+│   │   └── ServerApi.kt
+│   ├── local/
+│   │   └── ServerCache.kt
+│   └── repository/
+│       └── ServerRepository.kt
+│
+├── vpn/
+│   ├── QatarVpnService.kt
+│   ├── LibboxManager.kt
+│   ├── LibboxPlatformInterface.kt
+│   ├── ShadowsocksConfigParser.kt
+│   └── ...
+│
+├── ui/
+│   ├── home/
+│   ├── servers/
+│   ├── settings/
+│   └── components/
+│
+└── MainActivity.kt
+
+Keep VPN engine code separated from UI code.
+
+---
+
+17. Persistence
+
+Use DataStore for:
+
+- selected server
+- auto-connect setting
+- notification preference
+- other simple preferences
+
+Use local cache for the downloaded server JSON.
+
+Do not store unnecessary sensitive information.
+
+---
+
+18. Security
+
+Do not send server configurations anywhere except the configured server source and the VPN engine.
+
+Do not add analytics unless explicitly requested.
+
+Do not hard-code private API keys.
+
+Do not expose credentials in logs.
+
+Do not print complete "ss://" URLs to Logcat.
+
+Use HTTPS wherever applicable.
+
+---
+
+19. Build configuration
+
+The project must compile in Android Studio.
+
+Use a modern stable Kotlin/Android Gradle configuration compatible with the installed Android Studio environment.
+
+Add the supplied:
+
+"libbox.aar"
+
+to:
+
+"app/libs/libbox.aar"
+
+Configure Gradle correctly to load the AAR.
+
+Make sure native ".so" libraries packaged inside the AAR are included correctly.
+
+Support at minimum:
+
+- arm64-v8a
+- armeabi-v7a
+
+If the AAR contains x86/x86_64, keep them available for emulator compatibility where practical.
+
+---
+
+20. No fake implementation
+
+This is extremely important.
+
+Do NOT create fake VPN connection states.
+
+Do NOT simulate connection success.
+
+Do NOT show "Connected" unless the actual VPN/libbox service has started successfully.
+
+Do NOT create placeholder methods such as:
+
+"startFakeVpn()"
+
+"simulateConnection()"
+
+"mockConnect()"
+
+The final application must establish a real VPN tunnel using the supplied "libbox.aar".
+
+---
+
+21. UI quality
+
+Make the UI feel like a real production VPN app.
+
+Use:
+
+- polished typography
+- consistent spacing
+- proper icons
+- subtle animations
+- responsive layouts
+- dark theme
+- accessibility-friendly touch targets
+- proper loading indicators
+- empty/error states
+
+Do not make the design excessively futuristic or overloaded with neon.
+
+The main screen should remain simple:
+
+Status
+↓
+Large Connect button
+↓
+Selected Server
+↓
+Connection statistics
+
+---
+
+22. Deliverables
+
+Generate the complete Android Studio project.
+
+Include:
+
+- "settings.gradle"
+- root "build.gradle"
+- app "build.gradle"
+- "AndroidManifest.xml"
+- Kotlin source files
+- Compose UI
+- VPN service
+- libbox integration
+- Shadowsocks parser
+- server repository
+- JSON caching
+- DataStore
+- resources
+- icons
+- themes
+- strings
+- required ProGuard/R8 configuration
+
+The project must be ready to open in Android Studio and build.
+
+Most importantly:
+
+Use the supplied "libbox.aar" as the actual VPN engine and implement a real Shadowsocks/Outline-compatible Android VPN around it.
+
+Before writing the implementation, inspect the supplied AAR and use its REAL classes and method signatures rather than guessing.
