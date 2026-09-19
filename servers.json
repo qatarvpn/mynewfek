@@ -1,16 +1,16 @@
 [
   {
-    "name": "United States outline",
+    "name": "UNITED STATES",
     "config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#United States 🇺🇸",
     "countryCode": "us"
   },
   {
-    "name": "Ukraine kingdom hy2",
+    "name": "UNITED KINGDOM",
     "config": "hysteria2://93w1tjkr78yr8qzi@51.38.71.147:2087?alpn=h3&obfs=salamander&obfs-password=9ocen8pezkf6e4bk&security=tls&sni=#node-uk.connectsuite.org-rkrjuf6il1",
     "countryCode": "gb"
   },
   {
-    "name": "United Kingdom trojan ",
+    "name": "GERMANY",
     "config": "trojan://45959601-45d7-4fbc-b499-36e9a08a4e74@51.38.71.147:443#trojan-tcp",
     "countryCode": "de"
   }
