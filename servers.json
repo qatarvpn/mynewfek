@@ -1,102 +1,102 @@
 [
   {
     "name": "Canada",
-    "config": "trojan://humanity@104.16.72.41:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com",
+    "config": "trojan://humanity@104.17.121.71:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com",
     "countryCode": "ca"
   },
   {
     "name": "Canada",
-    "config": "trojan://humanity@104.18.23.63:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com",
+    "config": "trojan://humanity@165.215.250.14:443?path=/assignment&security=tls&insecure=1&host=www.ignitelimit.com&fp=chrome&type=ws&allowInsecure=1&sni=www.ignitelimit.com",
+    "countryCode": "us"
+  },
+  {
+    "name": "Seychelles",
+    "config": "trojan://humanity@45.130.125.112:443?path=/assignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com",
+    "countryCode": "sc"
+  },
+  {
+    "name": "Netherlands",
+    "config": "trojan://humanity@188.42.145.180:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.volumerOot.coM.&fp=chrome&type=ws&allowInsecure=0&sni=wWw.Volumeroot.cOm.",
+    "countryCode": "nl"
+  },
+  {
+    "name": "United States",
+    "config": "trojan://humanity@45.205.0.6:443?path=/assignment&security=tls&alpn=http/1.1&insecure=0&host=www.calmlunch.com&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com",
+    "countryCode": "us"
+  },
+  {
+    "name": "United States",
+    "config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@37.19.198.243:443#US ðŸ‡ºðŸ‡¸",
+    "countryCode": "us"
+  },
+  {
+    "name": "Canada",
+    "config": "ss://YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA@185.156.47.97:9443#CA ðŸ‡¨ðŸ‡¦",
     "countryCode": "ca"
   },
   {
     "name": "Canada",
-    "config": "trojan://humanity@104.19.229.21:443?path=%2F%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com",
+    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcnMyZTlh@142.4.216.225:443#CA ðŸ‡¨ðŸ‡¦",
     "countryCode": "ca"
   },
   {
     "name": "Canada",
-    "config": "trojan://humanity@104.19.64.105:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com",
+    "config": "ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06SFdGRkpOMTlKa3ZiVEtvLzc5QWZuYlJCSzl1SFVVYUZOWkp5TGpFb0pHcz0@51.222.107.43:2083#CA ðŸ‡¨ðŸ‡¦",
     "countryCode": "ca"
   },
   {
-    "name": "Canada",
-    "config": "trojan://humanity@172.67.188.109:443?path=/assignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.ignitelimit.com",
-    "countryCode": "ca"
-  },
-  {
-    "name": "Netherlands",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.235:443?#NL ðŸ‡³ðŸ‡± | @Raydikalx | 339D61",
-    "countryCode": "nl"
-  },
-  {
-    "name": "Netherlands",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.156:8080#NL ðŸ‡³ðŸ‡± | @Raydikalx | 7F1FD1",
-    "countryCode": "nl"
-  },
-  {
-    "name": "Netherlands",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#NL ðŸ‡³ðŸ‡± | @Raydikalx | E6DED9",
-    "countryCode": "nl"
-  },
-  {
-    "name": "Netherlands",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.61:8080#NL ðŸ‡³ðŸ‡± | @Raydikalx | 6F14DC",
-    "countryCode": "nl"
-  },
-  {
-    "name": "Netherlands",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.66:8080#NL ðŸ‡³ðŸ‡± | @Raydikalx | 69E461",
-    "countryCode": "nl"
-  },
-  {
     "name": "United States",
-    "config": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&flow=xtls-rprx-vision&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&security=reality&sni=www.cloudflare.com&type=tcp",
+    "config": "ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@15.204.246.132:7307#US ðŸ‡ºðŸ‡¸",
     "countryCode": "us"
   },
   {
     "name": "United States",
-    "config": "vless://8ea1a178-2719-47b7-99d0-33d8dc361ba3@34.85.179.6:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI&sid=c08efcd72d7e8389&type=tcp&headerType=none",
+    "config": "vless://055a1ce8-2a16-4a0d-a2c2-22826c9b2413@47.253.226.114:443?encryption=none&flow=xtls-rprx-vision&pbk=Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc&security=reality&sni=www.cloudflare.com&type=tcp#US ðŸ‡ºðŸ‡¸",
     "countryCode": "us"
   },
   {
     "name": "United States",
-    "config": "vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@89.125.43.121:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8&security=reality&sid=2997575f36da5a09&sni=hyhhuh.mervi.icu&type=tcp",
+    "config": "vless://8ea1a178-2719-47b7-99d0-33d8dc361ba3@34.85.179.6:443?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI&sid=c08efcd72d7e8389&type=tcp&headerType=none#US ðŸ‡ºðŸ‡¸",
     "countryCode": "us"
   },
   {
     "name": "United States",
-    "config": "vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?security=reality&encryption=none&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com",
+    "config": "vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@89.125.43.121:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8&security=reality&sid=2997575f36da5a09&sni=hyhhuh.mervi.icu&type=tcp#US ðŸ‡ºðŸ‡¸",
     "countryCode": "us"
   },
   {
     "name": "United States",
-    "config": "vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality&encryption=none&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com",
+    "config": "vless://c9fd0fb1-8251-4106-b09a-f4b426736f67@137.184.218.169:36925?security=reality&encryption=none&pbk=lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com#US ðŸ‡ºðŸ‡¸",
     "countryCode": "us"
   },
   {
-    "name": "Romania",
-    "config": "hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.185:8443/?sni=hopp-romania-new.roxa.org&insecure=1",
-    "countryCode": "ro"
-  },
-  {
-    "name": "Romania",
-    "config": "hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@85.204.107.185:8443/?sni=hopp-romania-new.roxa.org&insecure=0",
-    "countryCode": "ro"
+    "name": "United States",
+    "config": "vless://14c80e0e-f7ce-4991-94fc-99a1db4a9b1e@159.89.87.21:28190?security=reality&encryption=none&pbk=ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com#US ðŸ‡ºðŸ‡¸",
+    "countryCode": "us"
   },
   {
     "name": "Japan",
-    "config": "hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@msjp1.mangshe.xyz:20561/?sni=msjp1.mangshe.xyz&insecure=0",
+    "config": "hy2://07a4fcf5553a80cf300374d325386038@141.147.151.58:443/?insecure=1&sni=www.bing.com&obfs=salamander&obfs-password=d0dd99b2b4da604123ce17b6d17072a2",
     "countryCode": "jp"
   },
   {
-    "name": "United States",
-    "config": "hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-us-003.fastervpn.world:443/?sni=vpn-us-003.fastervpn.world&insecure=1",
-    "countryCode": "us"
+    "name": "Spain",
+    "config": "hy2://19f72087-4591-4d72-930b-2697078ec2be@es1.xiaoliyu.cyou:4433/?insecure=1&sni=es1.xiaoliyu.cyou",
+    "countryCode": "es"
   },
   {
-    "name": "Taiwan",
-    "config": "hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-tw-002.fastervpn.world:443/?sni=www.bing.com&insecure=1",
-    "countryCode": "tw"
+    "name": "Denmark",
+    "config": "hy2://19f72087-4591-4d72-930b-2697078ec2be@se.xiaoliyu.cyou:4433/?insecure=1&sni=se.xiaoliyu.cyou",
+    "countryCode": "dk"
+  },
+  {
+    "name": "South Korea",
+    "config": "hy2://1beb216e3f60aea9555dae60d219a5ca@152-69-231-175.liao.kdns.fr:50160/?sni=152-69-231-175.liao.kdns.fr",
+    "countryCode": "kr"
+  },
+  {
+    "name": "Germany",
+    "config": "hy2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.126.7:8443/?sni=hopp-germany-new.ddnsguru.com",
+    "countryCode": "de"
   }
 ]
