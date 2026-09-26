@@ -1,18 +1,18 @@
 [
   {
-    "name": "Canada",
+    "name": "United States",
     "config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443#United States 🇺🇸",
-    "countryCode": "ca"
+    "countryCode": "us"
   },
   {
-    "name": "Canada",
+    "name": "United States",
     "config": "ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.244:443#United States 🇺🇸",
     "countryCode": "us"
   },
   {
-    "name": "Seychelles",
+    "name": "Netherlands",
     "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ@108.181.126.122:8388#Netherlands 🇳🇱",
-    "countryCode": "sc"
+    "countryCode": "nl"
   },
    {
     "name": "United States",
@@ -20,23 +20,23 @@
     "countryCode": "us"
   },
   {
-    "name": "Canada",
-    "config": "ss://YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA@185.156.47.97:9443#CA ðŸ‡¨ðŸ‡¦",
-    "countryCode": "ca"
+    "name": "United Kingdom",
+    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.187:8080#United Kingdom",
+    "countryCode": "gb"
   },
   {
-    "name": "Canada",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcnMyZTlh@142.4.216.225:443#CA ðŸ‡¨ðŸ‡¦",
-    "countryCode": "ca"
+    "name": "Germany",
+    "config": "ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@213.202.208.199:7001#Germany",
+    "countryCode": "de"
   },
   {
-    "name": "Canada",
-    "config": "ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6Y09pQyszSmhBWE13ZEdWNWV4bnJNU29ySlUwUmw1cWxMQ2JDQXVEbFdZND06SFdGRkpOMTlKa3ZiVEtvLzc5QWZuYlJCSzl1SFVVYUZOWkp5TGpFb0pHcz0@51.222.107.43:2083#CA ðŸ‡¨ðŸ‡¦",
-    "countryCode": "ca"
+    "name": "France",
+    "config": "ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@57.131.48.45:8388#France",
+    "countryCode": "fr"
   },
   {
-    "name": "United States",
-    "config": "ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@15.204.246.132:7307#US ðŸ‡ºðŸ‡¸",
-    "countryCode": "us"
+    "name": "Japan",
+    "config": " ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.87.240:443#Japan",
+    "countryCode": "jp"
   }
 ]
