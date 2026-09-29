@@ -24,6 +24,11 @@
     "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.187:8080#United Kingdom",
     "countryCode": "gb"
   },
+    {
+    "name": "United Kingdom",
+    "config": "ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@82.110.60.9:19999#United%20Kingdom",
+    "countryCode": "gb"
+  },
   {
     "name": "Germany",
     "config": "ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@213.202.208.199:7001#Germany",
