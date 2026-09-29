@@ -29,33 +29,30 @@
     "config": "ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@213.202.208.199:7001#Germany",
     "countryCode": "de"
   },
-  
   {
     "name": "Sweden",
     "config": "ss://YWVzLTI1Ni1nY206QXhJWVd0c2tKV0lJYWVmVw@70.34.212.124:8388#Sweden",
-    "countryCode": "de"
+    "countryCode": "se"
   },
   {
     "name": "France",
     "config": "ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@57.131.48.45:8388#France",
     "countryCode": "fr"
   },
-  
   {
     "name": "Spain",
     "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY@108.181.121.226:8388#Spain",
-    "countryCode": "de"
+    "countryCode": "es"
   },
   {
     "name": "Canada",
     "config": "ss://YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA@185.156.47.97:9443#Canada",
     "countryCode": "ca"
   },
-  
   {
     "name": "Taiwan",
     "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.178.15:50099#Taiwan",
-    "countryCode": "de"
+    "countryCode": "tw"
   },
   {
     "name": "South Africa",
