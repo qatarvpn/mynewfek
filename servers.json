@@ -50,11 +50,6 @@
     "countryCode": "ca"
   },
   {
-    "name": "Taiwan",
-    "config": "ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.178.15:50099#Taiwan",
-    "countryCode": "tw"
-  },
-  {
     "name": "South Africa",
     "config": " ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233#South%20Africa",
     "countryCode": "za"
