@@ -34,6 +34,11 @@
     "config": "ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@57.131.48.45:8388#France",
     "countryCode": "fr"
   },
+    {
+    "name": "Canada",
+    "config": "ss://YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA@185.156.47.97:9443#Canada",
+    "countryCode": "ca"
+  },
   {
     "name": "Japan",
     "config": " ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M%3D@149.22.87.240:443#Japan",
