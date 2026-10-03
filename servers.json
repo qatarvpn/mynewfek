@@ -1,15 +1,5 @@
 [
   {
-    "name": "BG 1",
-    "config": "ss://YWVzLTI1Ni1jZmI6R2VyZWdldFI4Y3ZRSHpZcg@213.183.63.60:9030#BG",
-    "countryCode": "bg"
-  },
-  {
-    "name": "BG 2",
-    "config": "ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw@213.183.63.60:9098#BG",
-    "countryCode": "bg"
-  },
-  {
     "name": "Canada 1",
     "config": "ss://YWVzLTEyOC1nY206NGVmZTFhZjI3MmU3MjkyMTM5Yjg4OWY2YTYzZWUwNzE@64.74.163.69:18766#Canada",
     "countryCode": "ca"
